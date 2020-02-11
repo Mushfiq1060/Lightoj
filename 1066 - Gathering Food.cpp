@@ -55,9 +55,7 @@ int main()
                                 level[y][z]+=level[x.first][x.second]+1;
                                 vis[y][z]=1;
                                 if(grid[y][z]==xd+1)
-                                {
                                     flag=true;
-                                }
                                 qu.push(make_pair(y,z));
                             }
                         }
