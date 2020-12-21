@@ -4,7 +4,8 @@
  * reverse string is rev
  * so we find the longest prefix of rev as a substring of str
  * then result is 2*(length of str)-longest prefix which is match
- * IF prefix of a reverse string and suffix of a original string is match then the matching portion is palindromw
+ * IF prefix of a reverse string and suffix of a original string is match then the matching portion is palindrome
+ * We use KMP algorithm in this problem
  **/
 #include<bits/stdc++.h>
 #define ll long long 
